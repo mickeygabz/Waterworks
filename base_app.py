@@ -87,7 +87,7 @@ else:
 
     with text1:
         st.write("""
-            Michael is well versed in creating ETL pipelines in AWS Cloud, Azure Cloud, as well as in on premise environment with python 
+            Michael is an analytical problem solver and team player.He is well versed in creating ETL pipelines in AWS Cloud, Azure Cloud, as well as in on premise environment with python 
             """)
 
     st.header("Odimegwu David - Data Scientist")
