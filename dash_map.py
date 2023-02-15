@@ -366,39 +366,12 @@ def display_map(df, df2, year, quarter, param, only1, only2, only3, only4, only5
 
 # Load data from databricks function
 @st.cache(suppress_st_warning=True)
-def get_data_from_databricks(test_sites_query, wwtp_query):
-    test_sites = RD.get_data(test_sites_query)
-    wwtp_sites = RD.get_data(wwtp_query)
-    # test_sites.to_csv("data/merged.csv", index=False)
-    # wwtp_sites.to_csv("data/wwtp.csv", index=False)
-    return test_sites, wwtp_sites
-
 
 def main():
 
-    test_sites_query = """
-
-		SELECT sp.sample_pt_desc, sp.latitude, sp.longitude, sp.sample_id, ra.year, ra.quarter, ra.cod, ra.conductivity, ra.e_coli,
-				ra.pH, ra.nitrate, ra.phosphate, ra.physical_compliance_percentage, ra.chemical_compliance_percentage,
-				ra.bacteriological_compliance_percentage, 
-				ra.biological_compliance_percentage, ra.overall_compliance_percentage, ri.river
-
-		FROM rand as ra
-		INNER JOIN sampling_points as sp
-		ON ra.sample_id = sp.sample_id
-		INNER JOIN rivers as ri
-		ON ra.river_id = ri.river_id
-
-		"""
-    wwtp_query = """
-		SELECT *
-
-		FROM wwtp
-	"""
-
     # Load data
-    test_sites_df, wwtp_df = get_data_from_databricks(test_sites_query, wwtp_query)
-    # test_sites_df = pd.read_csv('data/merged.csv')
+    wwtp_df = pd.read_csv('data/wwtp.csv')
+    test_sites_df = pd.read_csv('data/merged.csv')
     only1 = gpd.read_file("data/river/only1.shp")
     only2 = gpd.read_file("data/river/only2.shp")
     only3 = gpd.read_file("data/river/only3.shp")
