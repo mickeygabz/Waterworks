@@ -6,7 +6,6 @@ from streamlit_folium import st_folium
 import pandas as pd
 import geopandas as gpd
 from branca.element import Template, MacroElement
-import randDataProvider as RD
 
 # Clear streamlit cache code to run on cmd
 # streamlit cache clear

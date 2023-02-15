@@ -8,7 +8,6 @@ from PIL import Image
 import plotly.graph_objects as go
 import dash_map as dm
 from prophet import Prophet
-import randDataProvider as rd
 
 #Create plot
 def create_plot(df, x, y, y_lim, g0, g1, b0, b1, y0, y1, r0, r1, param):

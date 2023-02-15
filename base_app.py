@@ -8,7 +8,6 @@ import plotly.graph_objects as go
 import dash_map as dm
 import time_series as ts
 from prophet import Prophet
-import randDataProvider as rd
 
 
 def add_bg_from_local(image_file):
