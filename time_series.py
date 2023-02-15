@@ -516,7 +516,7 @@ def river_plot(id, df):
         st.plotly_chart(fig)
 
 # Load data from databricks function
-@st.cache(suppress_st_warning=True)
+#@st.cache(suppress_st_warning=True)
 def main():
     
     data = pd.read_csv(r'data/df.csv')
