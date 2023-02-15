@@ -1,0 +1,22 @@
+treatment_works,plant_class,river_discharge,discharge_amount_kl_per_day,failures,tests,last_date_monitored,lat,long,main_business
+Ancor,B,Blesbokspruit Wetland,15000,1079,3753,44804.0,-26.27135,28.47953,Water Service Authority
+Benoni,C,,16000,124,3463,44804.0,-26.2091,28.31713,Water Service Authority
+Bushkoppie,A,Harringtonspruit River,200000,718,3878,44818.0,-26.49916,28.07731,Waste Water Treatment Works
+Carl Grundlingh,B,Blesbokspruit Wetland,5000,126,3360,,-26.38421,28.46965,Water Service Authority
+Daveyton WWTW,C,Blesbokspruit Wetland,11500,207,3156,44804.0,-26.13605,28.4648,Water Service Authority
+Dekema,C,Natalspruit River,31000,708,3941,44804.0,-26.35841,28.17648,Waste Water Treatment Works
+Esther Park,C,,1000,324,2597,44773.0,-26.10015,28.18363,Water Service Authority
+Goudkoppies,A,Harringtonspruit River,150000,1169,3072,44818.0,-26.49916,28.07731,Waste Water Treatment Works
+Herbet Bickley,A,Blesbokspruit River,15100,495,3108,44804.0,-26.44568,28.4478,Water Service Authority
+J. P Marais WWTW,B,Blesbokspruit River,15000,110,3290,44804.0,-26.16863,28.39311,Water Service Authority
+Jan Smuts,C,,6100,797,3203,44804.0,-26.22473,28.37525,Water Service Authority
+Meyerton WWTW,C,Klip River,10000,42,99,44775.0,-26.60399,28.01407,Waste Water Treatment Works
+Olifantsfontein,B,,105000,1392,2809,44821.0,-25.9433,28.21421,Water Service Authority
+Olifantsvlei,A,Klip River,250000,60,3055,44818.0,-26.49916,28.07731,Waste Water Treatment Works
+Randfontein,D,Rietspruit River,20000,17,89,44588.0,-26.16,27.67,Water Service Authority
+Ratanda,C,Blesbokspruit River,4700,115,3060,44804.0,-26.58208,28.30355,Water Service Authority
+Rynfield,B,Blesbokspruit River,10000,160,1753,44742.0,-26.16073,28.35793,Water Service Authority
+Tsakane,C,Blesbokspruit River,20000,581,3117,44804.0,-26.37598,28.36593,Waste Water Treatment Works
+Vaal Marina WWTW,C,Vaal Dam,2000,63,98,44774.0,-26.792847,28.20432,Goldmine
+Waterval WWTW,A,Klip River,170000,533,3638,44804.0,-26.44403,28.10644,Waste Water Treatment Works
+Welgedacht,A,Blesbokspruit Wetland,95000,244,3575,44804.0,-26.18891,28.4733,Water Service Authority
