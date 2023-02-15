@@ -483,6 +483,3 @@ def main():
                 column=fail,
             )
 
-
-if __name__ == "__main__":
-    main()
