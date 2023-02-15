@@ -365,7 +365,7 @@ def display_map(df, df2, year, quarter, param, only1, only2, only3, only4, only5
 
 
 # Load data from databricks function
-@st.cache(suppress_st_warning=True)
+#@st.cache(suppress_st_warning=True)
 
 def main():
 
