@@ -39,25 +39,6 @@ selection = option_menu(None, ["Home", "Water Quality", "Time Series", 'About us
         "nav-link-selected": {"background-color": "#7CC4F5"},
     })
 
-#load data from sql table
-query = '''
-
-    SELECT sp.sample_pt_desc, ra.year, ra.qtr, ra.quarter, ra.cod, ra.conductivity, ra.e_coli,
-            ra.pH, nitrate, phosphate, ra.physical_compliance_percentage, ra.chemical_compliance_percentage,
-            ra.bacteriological_compliance_percentage, 
-            ra.biological_compliance_percentage, ra.overall_compliance_percentage, ri.river_id
-
-    FROM rand ra
-    INNER JOIN sampling_points sp
-    ON ra.sample_id = sp.sample_id
-    INNER JOIN rivers ri
-    ON ra.river_id = ri.river_id
-
-    '''
-#data = rd.get_data(query)
-
-#data = data.fillna(0)
-#data.to_csv('data/df.csv')
 
 data = pd.read_csv(r'data/df.csv')
 
