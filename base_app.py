@@ -69,7 +69,7 @@ else:
     hasan_pic = Image.open("Images/Hasan.jpeg")
 
     
-    st.header("Bodine Mazibuko -Team Lead)
+    st.header("Bodine Mazibuko -Team Lead")
     bodine, text = st.columns((1,2))
 
     with bodine:
