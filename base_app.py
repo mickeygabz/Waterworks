@@ -68,8 +68,8 @@ else:
     ehi_pic = Image.open("Images/Ehi.jpg")
     hasan_pic = Image.open("Images/Hasan.jpeg")
 
-
-    st.header("Bodine Mazibuko")
+    
+    st.header("Bodine Mazibuko -Team Lead)
     bodine, text = st.columns((1,2))
 
     with bodine:
@@ -78,8 +78,31 @@ else:
     with text:
         st.write("""
             Project management, analytical reporting and research skills, data visualization, UIUX.""")
+            
+    st.header("David Kambo - Data Scientist (GIS Lead)")
+    david, text7 = st.columns((1,2))
     
-    st.header("Michael Ndirangu -  Data Engineer")
+    with david:
+        st.image(david_pic)
+
+    with text7:
+        st.write("""
+            A data scientist knowledgeable in data wrangling, data analysis, data visualization and machine learning. Pragmatic and meticulous are adjectives that are often used to describe him.
+            """)
+            
+    st.header("Othuke Ajaye- Data Scientist (Time Series Lead)")
+    othuke, text3 = st.columns((1,2))
+    
+    with othuke:
+        st.image(othuke_pic)
+
+    with text3:
+        st.write("""
+            Othuke is a Motivated, teamwork-oriented, and responsible Data Scientist who strives to provide insights to help make informed decisions with skills in 
+            data analytics, communication and problem solving.
+            """)
+           
+    st.header("Michael Ndirangu -  Data Engineer (DE Lead)")
     mikey, text1 = st.columns((1,2))
 
     with mikey:
@@ -101,21 +124,10 @@ else:
             David's skills include machine learning, SQL, and making predictions on given data.
             """)
 
-    st.header("Othuke Ajaye- Data Scientist")
-    othuke, text3 = st.columns((1,2))
-    
-    with othuke:
-        st.image(othuke_pic)
-
-    with text3:
-        st.write("""
-            Othuke is a Motivated, teamwork-oriented, and responsible Data Scientist who strives to provide insights to help make informed decisions with skills in 
-            data analytics, communication and problem solving.
-            """)
-
     st.header("Joseph Aromeh - Data Scientist")
     joseph, text4 = st.columns((1,2))
-    
+   
+            
     with joseph:
         st.image(joseph_pic)
 
@@ -146,16 +158,6 @@ else:
             A fast learning Data Scientist highly skilled in data wrangling, EDA, and predictive modeling for business operations and development.
             """)
 
-    st.header("David Kambo - Data Scientist")
-    david, text7 = st.columns((1,2))
-    
-    with david:
-        st.image(david_pic)
-
-    with text7:
-        st.write("""
-            A data scientist knowledgeable in data wrangling, data analysis, data visualization and machine learning. Pragmatic and meticulous are adjectives that are often used to describe him.
-            """)
 
     st.header("Theresa Koomson - Data Scientist")
     theresa, text8 = st.columns((1,2))
